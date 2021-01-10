@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oscar Joos, Launches Web Site"
+title: "Oscar Joos, First blog post and website"
 date: 2021-01-10
 ---
 
