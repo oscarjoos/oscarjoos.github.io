@@ -1,9 +1,32 @@
----
-layout: default
-title:Oscar Joos, website
----
-<div class="blurb">
-	<h1>Hi there, I'm Oscar Joos!</h1>
-	<p>This website is under development, <em> Please be patient</em>. <br> 
-	<a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+  
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:joos.oscarb@gmail.com">My email</a></li>
+	        		<li><a href="https://github.com/oscarjoos">github.com/hankquinlan</a></li>
+              <li><a href="https://www.linkedin.com/in/oscar-joos-91b01647/">My LinkedIn</a></li>
+				Testing for errors
+				</ul>
+			</footer>
+		</body>
+	</html>
